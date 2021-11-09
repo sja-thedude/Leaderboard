@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin-left: 30px;
+}
+
+.con-scores {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 10%;
+}
+
+.scores-recent,
+.score-add {
+  padding: 0 20px;
+  min-width: 280px;
+}
+
+.scores-recent {
+  flex: 1;
+}
+
+.scores-title-recent {
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+}
+
+.scores-title-recent h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.refresh,
+.btn-submit {
+  width: 70px;
+}
+
+.btn-submit {
+  align-self: flex-end;
+  height: 30px;
+  margin-right: 38%;
+}
+
+.table-score-board {
+  width: 100%;
+  margin: 20px 0;
+  border: 1px solid grey;
+  border-radius: 2px;
+}
+
+.score-add {
+  flex: 1;
+}
+
+.form-add {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.form-add h2 {
+  margin-top: 0;
+}
+
+.form-add input[type="text"] {
+  width: 60%;
+  height: 30px;
+  margin-bottom: 20px;
+}
