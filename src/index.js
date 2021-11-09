@@ -9,7 +9,7 @@ const dataScore = [
   { name: 'name', score: 98 },
 ];
 
-function tableLoad() {
+const tableLoad = () => {
   const table = document.querySelector('.table-score-board');
 
   dataScore.forEach((data) => {
@@ -24,4 +24,4 @@ function tableLoad() {
   });
 }
 
-tableLoad();
+export default tableLoad();
