@@ -1,4 +1,4 @@
-## Copyright 2021, [ Simo Nkosi ]
+## Copyright 2021, [ Syeda Juveria Afreen ]
 
 ###### Leaderboard Website
 

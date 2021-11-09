@@ -47,11 +47,16 @@ h1 {
   margin-right: 38%;
 }
 
+.con-table {
+  height: auto;
+  min-height: 250px;
+  margin: 20px 0;
+  border: 1px solid rgb(105, 105, 105);
+  border-radius: 2px;
+}
+
 .table-score-board {
   width: 100%;
-  margin: 20px 0;
-  border: 1px solid grey;
-  border-radius: 2px;
 }
 
 .score-add {
@@ -69,6 +74,12 @@ h1 {
 }
 
 .form-add input[type="text"] {
+  width: 60%;
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+.form-add input[type="number"] {
   width: 60%;
   height: 30px;
   margin-bottom: 20px;
