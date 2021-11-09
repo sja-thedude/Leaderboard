@@ -22,6 +22,6 @@ const tableLoad = () => {
     tr.appendChild(td);
     table.appendChild(tr);
   });
-}
+};
 
 export default tableLoad();
