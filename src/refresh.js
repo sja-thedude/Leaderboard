@@ -1,7 +1,7 @@
 const refresh = () => {
-  const btnRefresh = document.querySelector('.refresh');
+  const refBtn = document.querySelector('.refresh');
 
-  btnRefresh.addEventListener('click', () => {
+  refBtn.addEventListener('click', () => {
     window.location.reload();
   });
 };
