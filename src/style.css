@@ -67,7 +67,7 @@ h1 {
 
 .refresh:hover,
 .btn-submit:hover {
-  color: #f60;
+  color: rgb(117, 22, 224);
   background: #fff;
 }
 
@@ -95,7 +95,7 @@ h1 {
 }
 
 .row-table:nth-child(even) {
-  background: rgba(0, 102, 255, 0.6);
+  background: rgba(180, 134, 223, 0.6);
 }
 
 .score-add {
