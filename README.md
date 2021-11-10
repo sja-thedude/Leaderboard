@@ -26,7 +26,7 @@ To get a local copy of this project:
 
 Clone this repository or download the Zip folder:
 ```
-git clone git@github.com:KDlamini/Leaderboard.git
+git clone git@github.com:sja-thedude/Leaderboard.git
 ```  
 To download all the dependencies, in the root directory run:
 ```
