@@ -1,21 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-html {
-  background-color: blueviolet;
-}
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Mulish', Helvetica, sans-serif, Arial;
+  color: #fff;
+  background-color: #534c99;
+}
+
+.con {
+  margin-top: 50px;
 }
 
 h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: 'Abril Fatface', 'Mulish', sans-serif;
   margin-left: 30px;
 }
 
 .con-scores {
   display: flex;
-  flex-wrap: wrap;
   padding: 0 10%;
 }
 
@@ -43,7 +49,14 @@ h1 {
 .refresh,
 .btn-submit {
   width: 70px;
-  border: 2px solid rgb(68, 67, 67);
+  color: #fff;
+  font-weight: 600;
+  background: rgb(82, 40, 121);
+  box-shadow: 0 8px 32px 0 rgba(107, 110, 245, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .btn-submit {
@@ -52,17 +65,37 @@ h1 {
   margin-right: 38%;
 }
 
+.refresh:hover,
+.btn-submit:hover {
+  color: rgb(117, 22, 224);
+  background: #fff;
+}
+
 .con-table {
   height: auto;
   min-height: 250px;
   margin: 20px 0;
-  border: 2px solid rgb(68, 67, 67);
-  border-radius: 2px;
-  background-color: cornsilk;
+  background: rgba(103, 134, 235, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(38, 77, 77, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .table-score-board {
   width: 100%;
+}
+
+.row-table {
+  margin: 0;
+  padding: 5px;
+  text-transform: capitalize;
+  background: rgba(0, 153, 255, 0.2);
+}
+
+.row-table:nth-child(even) {
+  background: rgba(180, 134, 223, 0.6);
 }
 
 .score-add {
@@ -79,16 +112,26 @@ h1 {
   margin-top: 0;
 }
 
-.form-add input[type="text"] {
-  width: 60%;
-  height: 30px;
-  margin-bottom: 20px;
-  border: 2px solid rgb(68, 67, 67);
-}
-
+.form-add input[type="text"],
 .form-add input[type="number"] {
   width: 60%;
   height: 30px;
+  padding-left: 5px;
   margin-bottom: 20px;
-  border: 2px solid rgb(68, 67, 67);
+  box-shadow: 0 8px 32px 0 rgba(134, 116, 212, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+@media only screen and (max-width: 799px) {
+  .con-scores {
+    flex-direction: column-reverse;
+  }
+
+  .scores-recent {
+    margin-top: 50px;
+  }
 }
